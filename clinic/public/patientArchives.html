@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archived Records</title>
+    <link rel="stylesheet" href="../src/assets/css/patientArchives.css">
+    <link rel="stylesheet" href="../src/assets/css/cssExternalHTML/header.css">
+    <link rel="stylesheet" href="../src/assets/css/cssExternalHTML/sidebar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- sidebar HTML loads here-->
+
+    <div class="main-content">
+
+        <!-- header HTML loads here-->
+
+        <div id="wrapper">
+            <div id="first-row">
+                <h2>Archived Medical Reports</h2>
+                <div class="search-container">
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                        <input type="text" id="search" placeholder="Search archives...">
+                    </div>
+                    <select id="report-types">
+                        <option value="">All Categories</option>
+                        <option value="Medical History">Medical History</option>
+                        <option value="Family Medical History">Family Medical History</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="second-row">
+                <p>Patient Name</p>
+                <p>Type</p>
+                <p>Category</p>
+                <p>Archive Date</p>
+                <p>Retention Period</p>
+                <p>Actions</p>
+            </div>
+            <hr>
+            <div class="third-row">
+                <p>John Wick</p>
+                <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                <p>Medical History</p>
+                <p><i class="fa-solid fa-calendar"></i> 2024-01-28</p> 
+                <p><i class="fa-solid fa-clock"></i> 7 years</p> 
+            <div class="btn-div">
+                <button class="download-btn">
+                    <i class="fa-solid fa-download"></i> Download
+                </button>
+            </div>
+            </div>
+            <hr>
+           <div class="third-row">
+                <p>Aleksandar Veljkovic</p>
+                <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                <p>Family Medical History</p>
+                <p><i class="fa-solid fa-calendar"></i> 2024-01-28</p>
+                <p><i class="fa-solid fa-clock"></i> 7 years</p> 
+                <div class="btn-div">
+                    <button class="download-btn">
+                        <i class="fa-solid fa-download"></i> Download
+                    </button>
+                </div>
+            </div>
+
+            <hr>
+            <div class="third-row">
+                 <p>Nenad Veljkovic</p>
+                 <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                 <p>Family Medical History</p>
+                 <p><i class="fa-solid fa-calendar"></i> 2024-01-28</p>
+                 <p><i class="fa-solid fa-clock"></i> 7 years</p> 
+                 <div class="btn-div">
+                     <button class="download-btn">
+                         <i class="fa-solid fa-download"></i> Download
+                     </button>
+                 </div>
+             </div>
+
+             <hr>
+            <div class="third-row">
+                 <p>Milutin Ivanovic</p>
+                 <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                 <p>Medical History</p>
+                 <p><i class="fa-solid fa-calendar"></i> 2024-01-28</p>
+                 <p><i class="fa-solid fa-clock"></i> 7 years</p> 
+                 <div class="btn-div">
+                     <button class="download-btn">
+                         <i class="fa-solid fa-download"></i> Download
+                     </button>
+                 </div>
+             </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="../src/assets/js/selectType.js"></script>
+    <script src="../src/assets/js/searchReport.js"></script>
+    <script src="../src/assets/js/loadHeader.js"></script>
+    <script src="../src/assets/js/loadSidebar.js"></script>
+
+</body>
+</html>

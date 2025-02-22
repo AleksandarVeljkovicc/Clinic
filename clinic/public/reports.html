@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports Management</title>
+    <link rel="stylesheet" href="../src/assets/css/reports.css">
+    <link rel="stylesheet" href="../src/assets/css/cssExternalHTML/header.css">
+    <link rel="stylesheet" href="../src/assets/css/cssExternalHTML/sidebar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- sidebar HTML loads here-->
+
+    <div class="main-content">
+        
+        <!-- header HTML loads here-->
+
+         <div id="wrapper">
+            <div id="first-row">
+                <h2>Medical Reports</h2>
+                <div class="search-container">
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                        <input type="text" id="search" placeholder="Search reports...">
+                    </div>
+                    <select id="report-types">
+                        <option value="">All Types</option>
+                        <option value="Medical Examination">Medical Examination</option>
+                        <option value="Lab Results">Lab Results</option>
+                        <option value="Prescription">Prescription</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="second-row">
+                <p>Patient Name</p>
+                <p>Doctor</p>
+                <p>Type</p>
+                <p>Date</p>
+                <p>Status</p>
+                <p>Actions</p>
+            </div>
+            <hr>
+            <div class="third-row">
+                <p>Aleksandar Veljkovic</p>
+                <p>Dr. Gregory House</p>
+                <p><i class="fa-solid fa-file-alt"></i> Prescription</p> 
+                <p>2024-01-28</p>
+                <p>Final</p>
+                <div class="dropdown">
+                    <div class="dropdown-toggle">
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" data-value="view">View</div>
+                        <div class="dropdown-item" data-value="download">Download</div>
+                        <div class="dropdown-item" data-value="unarchive">Unarchive</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <hr>
+            <div class="third-row">
+                <p>Nenad Veljkovic</p>
+                <p>Dr. Gregory House</p>
+                <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                <p>2024-01-28</p>
+                <p>Final</p>
+                <div class="dropdown">
+                    <div class="dropdown-toggle">
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" data-value="view">View</div>
+                        <div class="dropdown-item" data-value="download">Download</div>
+                        <div class="dropdown-item" data-value="unarchive">Unarchive</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="third-row">
+                <p>Milutin Ivanovic</p>
+                <p>Dr. Gregory House</p>
+                <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                <p>2024-01-28</p>
+                <p>Final</p>
+                <div class="dropdown">
+                    <div class="dropdown-toggle">
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" data-value="view">View</div>
+                        <div class="dropdown-item" data-value="download">Download</div>
+                        <div class="dropdown-item" data-value="unarchive">Unarchive</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="third-row">
+                <p>Milutin Ivanovic</p>
+                <p>Dr. Gregory House</p>
+                <p><i class="fa-solid fa-file-alt"></i> Medical Examination</p> 
+                <p>2024-01-28</p>
+                <p>Final</p>
+                <div class="dropdown">
+                    <div class="dropdown-toggle">
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" data-value="view">View</div>
+                        <div class="dropdown-item" data-value="download">Download</div>
+                        <div class="dropdown-item" data-value="unarchive">Unarchive</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="third-row">
+                <p>John Wick</p>
+                <p>Dr. Gregory House</p>
+                <p><i class="fa-solid fa-file-alt"></i> Lab Results</p> 
+                <p>2024-01-28</p>
+                <p>Final</p>
+                <div class="dropdown">
+                    <div class="dropdown-toggle">
+                        <i class="fa-solid fa-ellipsis-v"></i>
+                    </div>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-item" data-value="view">View</div>
+                        <div class="dropdown-item" data-value="download">Download</div>
+                        <div class="dropdown-item" data-value="unarchive">Unarchive</div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+
+
+    <script src="../src/assets/js/selectType.js"></script>
+    <script src="../src/assets/js/searchReport.js"></script>
+    <script src="../src/assets/js/loadHeader.js"></script>
+    <script src="../src/assets/js/loadSidebar.js"></script>
+    <script src="../src/assets/js/dropDownMenu.js"></script>
+
+
+</body>
+</html>
