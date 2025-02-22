@@ -1,4 +1,4 @@
-#Clinic
+# Clinic
 
 Homework JavaScript project that doesn't do much. It doesn't have a database or APIs.
 
